@@ -1,0 +1,2 @@
+Download link here: https://www.kaggle.com/datasets/kazanova/sentiment140
+Couldn't include in the repository due to quota limit of git LFS bandwidth.
