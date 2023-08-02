@@ -4,7 +4,7 @@ This project is a sentiment analysis web application that uses a Machine Learnin
 
 ## Running Locally
 
-Before you start, make sure you have Docker and Docker Compose installed on your machine. If you haven't, you can download and install from [Docker's official website](https://docs.docker.com/get-docker/).
+Before you start, make sure you have Docker installed on your machine. If you haven't, you can download and install from [Docker's official website](https://docs.docker.com/get-docker/).
 
 Follow these steps to run the application:
 
@@ -12,3 +12,18 @@ Follow these steps to run the application:
 
 ```bash
 git clone https://github.com/hilmanzfr/sentiment-analysis-cerdas.git
+```
+
+2. Change directory to the project folder:
+```bash
+cd sentiment-analysis-cerdas
+```
+
+3. Run the application using docker-compose:
+```bash
+docker-compose up
+```
+
+4. To access frontend: [http://localhost:3000](http://localhost:3000) 
+
+5. To access backend: [http://0.0.0.0/docs](http://0.0.0.0/docs)

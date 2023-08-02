@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy requirements.txt to the working directory
 COPY requirements.txt ./
 
-# Install the dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Upgrade pip and Install the dependencies
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 # Download NLTK data (To download wordnet from NLTK)
 RUN python -m nltk.downloader wordnet
